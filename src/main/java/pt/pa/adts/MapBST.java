@@ -187,6 +187,11 @@ public class MapBST<K extends Comparable<K>, V> implements Map<K,V> {
     }
 
     @Override
+    public int[] getKeys() {
+        return new int[0];
+    }
+
+    @Override
     public String toString() {
         if(isEmpty()) return "Empty binary search tree.";
 

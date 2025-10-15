@@ -91,4 +91,5 @@ public interface Map<K, V> {
      */
     void clear();
 
+    int[] getKeys();
 }

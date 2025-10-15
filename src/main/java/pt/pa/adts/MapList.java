@@ -110,6 +110,11 @@ public class MapList<K,V> implements Map<K,V> {
     }
 
     @Override
+    public int[] getKeys() {
+        return new int[0];
+    }
+
+    @Override
     public String toString() {
         return "MapList{" + mappings + '}';
     }
